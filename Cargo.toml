@@ -1,0 +1,15 @@
+[package]
+name = "rpg"
+version = "0.1.0"
+edition = "2024"
+license = "GPLv3"
+repository = "https://github.com/Lut99/rpg-rs"
+authors = ["Lut99"]
+description = "A text-(or rather, terminal-)based RPG in Rust."
+
+
+[dependencies]
+
+
+[features]
+default = []
