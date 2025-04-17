@@ -9,6 +9,13 @@ description = "A text-(or rather, terminal-)based RPG in Rust."
 
 
 [dependencies]
+crossterm = "0.29.0"
+log = "0.4.27"
+ratatui = "0.29.0"
+thiserror = "2.0.12"
+
+error-trace = { git = "https://github.com/Lut99/error-trace-rs", tag = "v3.3.0" }
+humanlog = { git = "https://github.com/Lut99/humanlog-rs", tag = "v0.2.0" }
 
 
 [features]
